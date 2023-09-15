@@ -1,0 +1,29 @@
+.signup{
+    margin-top: 10%;
+    margin-left: 35%;
+}
+.sinput{
+    padding-top: 10px;
+}
+.sin{
+    padding:10px;
+    border-radius: 10px;
+}
+.sbutton
+{
+    padding: 10px;
+    margin-left: 18%;
+    border-radius: 5px;
+}
+.signup{
+    border: 2px solid black;
+    border-radius: 10px;
+    width:30%;
+    height:60vh;
+    margin-left:35%;
+    margin-top: 10%;
+}
+.sbox{
+    padding-left: 25%;
+    padding-top:7%;
+}
