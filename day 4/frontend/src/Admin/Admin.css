@@ -1,0 +1,13 @@
+.content{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* /* width:79vw;
+    height:83vh; */
+    margin-left: 25%;
+    /* margin-top:15%; */
+    border:2px solid gray;
+    width:60vw;
+    top:10;
+}

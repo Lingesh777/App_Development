@@ -1,0 +1,43 @@
+.topbar{
+    background-color:rgb(18,186,156);
+    height:15vh;
+    width:90vw;
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+    top:0;
+}
+.d-flex-r{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.topicon{
+    position: absolute;
+    left:60px;
+}
+.topendicon{
+    position: absolute;
+    right:100px;
+}
+.topsicon{
+    position:absolute;
+}
+.topsearch{
+    position:absolute;
+    left:35%;;
+}
+.topname{
+    position: absolute;
+    left:110px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+.toprev{
+    position: absolute;
+    right:170px;
+}

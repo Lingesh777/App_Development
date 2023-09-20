@@ -1,0 +1,15 @@
+.sidebar{
+    width:20vw;
+    height:100vh;
+    background-color: aqua;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    top:0;
+}
+.d-flex-c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

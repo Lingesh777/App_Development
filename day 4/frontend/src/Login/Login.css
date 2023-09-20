@@ -1,0 +1,51 @@
+.loginform{
+    border: 2px solid black;
+    height:55vh;
+    width:30vw;
+    border-radius: 10px;
+    /* background-color: rgba(197, 184, 167, 0.692); */
+}
+.lbox{
+    padding-top: 5%;
+}
+.logininput{
+    padding-top: 10px;
+}
+.lin{
+    padding:10px;
+    border-radius: 5px;
+}
+.lbutton{
+    margin-left: 4%;
+    padding:8px;
+    border-radius: 5px;
+    width:8vw;
+}
+/* .loginbody{
+    text-align: center;
+    background: #bdc3c7;  
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.lbutton:hover{
+    cursor:pointer;
+    background-color:rgba(102, 136, 165, 0.842);
+}
+.loginbody{
+    background-image: url("https://cdn.pixabay.com/photo/2022/10/11/21/58/texture-7515225_640.jpg");
+    /* background-image: url("https://images.pexels.com/photos/194096/pexels-photo-194096.jpeg?auto=compress&cs=tinysrgb&w=600"); */
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ .spannav:hover{
+    cursor:pointer;
+ }
