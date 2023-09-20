@@ -18,10 +18,11 @@
 .topendicon{
     position: absolute;
     right:50px;
+    cursor: pointer;
 }
 .topsicon{
     position:absolute;
-    left:74%;
+    left:78%;
 }
 .topsearch{
     position:absolute;
@@ -36,9 +37,10 @@
 }
 .toprev{
     position: absolute;
-    right:180px;
+    right:160px;
 }
 .topnoticon{
     position: absolute;
     right:110px;
+    cursor: pointer;
 }

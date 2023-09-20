@@ -1,6 +1,6 @@
 .sidebar{
-    width:20vw;
-    height:90vh;
+    width:15vw;
+    height:87.99vh;
     background-color:rgb(18,186,156);
     display: flex;
     align-content: flex-end;
@@ -15,4 +15,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.gdicon{
+    position: absolute;
+    top:40px;
 }
