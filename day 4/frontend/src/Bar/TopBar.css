@@ -1,11 +1,8 @@
 .topbar{
     background-color:rgb(18,186,156);
-    height:15vh;
-    width:98.7vw;
+    height:12vh;
+    width:100vw;
     position: absolute;
-    /* display: flex; */
-    /* align-items: center;
-    justify-content: center; */
     top:0;
 }
 .d-flex-r{

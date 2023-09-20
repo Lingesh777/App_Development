@@ -9,11 +9,11 @@ export const Admin = () => {
    const{email}=useParams();
   return (
     <div>
+      <div className="main d-flex-r">
       <TopBar/>
       <SideBar/>
-      <div className="content d-flex-c">
-        <h1>Welcome back, {email}</h1>
-        </div>
+      <div className="content d-flex-c"><h2>Welcome back, {email}</h2></div>
+    </div>
     </div>
   )
 }
