@@ -1,0 +1,17 @@
+.content{
+   width:75vw;
+   height:85vh;
+   /* border:2px solid gray; */
+   
+   margin-left: 15%;
+   margin-top: 5%;
+}
+
+.vpcontainer{
+    display: grid;
+   grid-template-columns: 250px 250px 250px 250px;
+   margin-left: 30px;
+   row-gap: 10px;
+    
+    height:80vh
+}

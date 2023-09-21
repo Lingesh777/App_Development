@@ -7,9 +7,12 @@ import {toast,ToastContainer } from 'react-toastify';
 import EmailIcon from '@mui/icons-material/Email';
 import LockIcon from '@mui/icons-material/Lock';
 import { Admin } from '../Admin/Admin';
+import { useDispatch } from 'react-redux';
+import { SetAdmin } from '../Redux/Redux';
 
 export const Login = () => {
     const navigate = useNavigate();
+    const dispatch = useDispatch();
     const [login,setLogin]=useState({
         email:'',password:''
     })
@@ -36,6 +39,9 @@ export const Login = () => {
                 console.log(res.data);
                 if(res.data==='Login success')
                 {
+                    dispatch(SetAdmin({
+                        email:login.email,
+                    }))
                     toast.success(res.data);
                     setTimeout(()=>
                     {
@@ -47,7 +53,7 @@ export const Login = () => {
                     toast.error(res.data);
 
                 }
-            })
+            }).catch((err)=>console.log(err))
         }
     }
   return (

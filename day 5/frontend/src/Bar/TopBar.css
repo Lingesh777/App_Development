@@ -2,7 +2,7 @@
     background-color:rgb(18,186,156);
     height:12vh;
     width:100vw;
-    position: absolute;
+    position: fixed;
     top:0;
 }
 .d-flex-r{
@@ -43,4 +43,9 @@
     position: absolute;
     right:110px;
     cursor: pointer;
+}
+.icondrop{
+    position:absolute;
+    right:3px;
+    top:15px
 }
