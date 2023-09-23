@@ -1,0 +1,64 @@
+.content{
+   /* width:75vw;
+   height:85vh; */
+   /* border:2px solid gray; */
+   
+   margin-left: 15%;
+   margin-top: 8%;
+}
+
+.vpcontainer{
+    display: grid;
+   grid-template-columns: 250px 250px 250px 250px;
+   margin-left: 30px;
+   row-gap: 10px;
+    
+    height:80vh
+}
+.vptable{
+    border-collapse: collapse;
+}
+.vptable td,.vptable th{
+    border:1px solid transparent;
+    padding: 8px;
+}
+.vptable tr:hover{
+    /* background-color: rgba(128, 128, 128, 0.479); */
+    background-color: green;
+    color:white;
+}
+.vptable th{
+    /* background-color: rgba(99, 193, 216, 0.76); */
+    background-color: green;
+    color:white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.vptable td{
+    font-weight: bold;
+    /* border-right: none; */
+}
+
+.vptable1{
+    border-collapse: collapse;
+}
+.vptable1 td,.vptable1 th{
+    border:1px solid transparent;
+    padding: 8px;
+}
+.vptable1 tr:hover{
+    /* background-color: rgba(128, 128, 128, 0.479); */
+    background-color: green;
+    color:white;
+}
+.vptable1 th{
+    /* background-color: rgba(99, 193, 216, 0.76); */
+    background-color: green;
+    color:white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.vptable1 td{
+    font-weight: bold;
+    /* border-right: none; */
+}
