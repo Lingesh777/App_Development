@@ -10,8 +10,10 @@ import { UpdateProducts } from "./Admin/UpdateProducts";
 import { Reports } from "./Admin/Reports";
 import { Contacts } from "./Admin/Contacts";
 import { Landing } from "./Landing/Landing";
-import { Aboutus } from "./Navbar/Aboutus";
 import { Contactus } from "./Navbar/Contactus";
+import Privacypolicy from "./Navbar/Privacypolicy";
+import Faq from "./Navbar/Faq";
+import Aboutus from './Navbar/Aboutus';
 function App() {
   return (
     <div className="App">
@@ -20,6 +22,8 @@ function App() {
           <Route path='/' element={<Landing/>}></Route>
           <Route path='/about' element={<Aboutus/>}></Route>
           <Route path='/contactus' element={<Contactus/>}></Route>
+          <Route path='/privacy' element={<Privacypolicy/>}></Route>
+          <Route path='/faq' element={<Faq/>}></Route>
           <Route path="/login" element={<Login/>}></Route>
           <Route path="/signup" element={<Signup/>}></Route>
           <Route path="/admin/:email" element={<Admin/>}></Route>

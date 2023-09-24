@@ -96,7 +96,7 @@
     border:2px solid black;
     margin-top: 20px;
     display: grid;
-    grid-template-columns:150px 150px 150px 150px;
+    grid-template-columns:150px 150px 150px 150px 150px;
     padding-left: 350px;
 }
 .endtext:hover{

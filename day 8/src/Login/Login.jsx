@@ -29,31 +29,35 @@ export const Login = () => {
         }
         else
         {
-            axios.get("http://localhost:8080/get/login",{
-                params:{
-                    email:login.email,
-                    password:login.password,
-                }
-            })
-            .then((res)=>{
-                console.log(res.data);
-                if(res.data==='Login success')
-                {
-                    dispatch(SetAdmin({
-                        email:login.email,
-                    }))
-                    toast.success(res.data);
-                    setTimeout(()=>
-                    {
-                        navigate(`/admin/${login.email}`)
-                    },2000);
-                }
-                else
-                {
-                    toast.error(res.data);
+            dispatch(SetAdmin({
+                email:login.email,
+            }))
+            navigate(`/admin/${login.email}`)
+            // axios.get("http://localhost:8080/get/login",{
+            //     params:{
+            //         email:login.email,
+            //         password:login.password,
+            //     }
+            // })
+            // .then((res)=>{
+            //     console.log(res.data);
+            //     if(res.data==='Login success')
+            //     {
+            //         dispatch(SetAdmin({
+            //             email:login.email,
+            //         }))
+            //         toast.success(res.data);
+            //         setTimeout(()=>
+            //         {
+            //             navigate(`/admin/${login.email}`)
+            //         },2000);
+            //     }
+            //     else
+            //     {
+            //         toast.error(res.data);
 
-                }
-            }).catch((err)=>console.log(err))
+            //     }
+            // }).catch((err)=>console.log(err))
         }
     }
   return (

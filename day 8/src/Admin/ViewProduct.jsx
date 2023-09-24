@@ -3,7 +3,7 @@ import { TopBar } from '../Bar/TopBar'
 import { SideBar } from '../Bar/SideBar'
 import './Admin.css';
 import { useDispatch, useSelector } from 'react-redux';
-import { getProduct, setToUpdate } from '../Redux/Redux';
+import { getProduct, removeproduct, setToUpdate } from '../Redux/Redux';
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';
 import { useNavigate } from 'react-router-dom';
@@ -20,7 +20,8 @@ export const ViewProduct = () => {
     navigate('/updateproduct')
   }
   const del=(product)=>{
-
+    console.log(product);
+    dispatch(removeproduct(product.id));
   }
   return (
     <div>

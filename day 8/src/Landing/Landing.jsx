@@ -75,13 +75,16 @@ export const Landing = () => {
                 <h4 style={{cursor:'pointer'}}>Terms of Service</h4>
             </div>
             <div className="endtext">
-                <h4 style={{marginLeft:'20px',cursor:'pointer'}}>Privacy Policy</h4>
+                <h4 style={{marginLeft:'20px',cursor:'pointer'}} onClick={()=>navigate('/privacy')}>Privacy Policy</h4>
             </div>
             <div className="endtext">
                 <h4 style={{marginLeft:'30px',cursor:'pointer'}} onClick={()=>navigate('/about')} >About Us</h4>
             </div>
             <div className="endtext">
                 <h4 onClick={()=>navigate('/contactus')} style={{cursor:'pointer'}}>Contact Us</h4>
+            </div>
+            <div className="endtext">
+                <h4 onClick={()=>navigate('/faq')} style={{cursor:'pointer'}}>FAQ</h4>
             </div>
         </div>
            

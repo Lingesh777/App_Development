@@ -22,6 +22,9 @@ const Redux = createSlice({
     addproduct:(state,action)=>{
       state.item.push(action.payload);
     },
+    removeproduct:(state,action)=>{
+      state.item=state.item.filter((product)=> product.id !== action.payload);
+    },
     setToUpdate:(state,action)=>{
       state.toUpdate = action.payload;
     },
@@ -41,8 +44,7 @@ const Redux = createSlice({
     }
   }
 });
-export const {SetAdmin,addsignup,addlogin,addproduct,updateproduct,setToUpdate,
-  removeToUpdate}=Redux.actions;
+export const {SetAdmin,addsignup,addlogin,addproduct,removeproduct,updateproduct,setToUpdate,removeToUpdate}=Redux.actions;
 
 export const getAdmin=(state)=>state.adminInfo.admin;
 export const getSignup=(state)=>state.adminInfo.signup;
