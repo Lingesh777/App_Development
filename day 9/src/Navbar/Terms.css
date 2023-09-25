@@ -1,0 +1,31 @@
+.terms{
+    position: absolute;
+    top: 210px;
+    left: 100px;
+    right: 100px; 
+    font-size: 22px;  
+} 
+
+.head{
+    position:absolute;
+    /* background: linear-gradient(45deg,#e2dfff,#dfe4ff,#dfeeff,#dfe7ff,#e3e4ff); */
+    height: 80px;
+    top: 100px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.head h1{
+    position: absolute;
+    top: 15px;
+    left: 490px;
+}
+div.terms{
+    line-height: 2.0;
+}
+.trems1{
+    line-height: 2.3;
+}
+.terms2{
+    position: absolute;
+    top:550px
+}
