@@ -1,0 +1,14 @@
+.revbody{
+    border:2px solid black;
+    border-radius: 10px;
+    width:35vw;
+}
+.revcol{
+    padding:10px
+}
+.revin{
+    margin-top:10px;
+    padding:20px;
+    width:20vw;
+    margin-left:70px
+}

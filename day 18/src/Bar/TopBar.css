@@ -1,0 +1,51 @@
+.topbar{
+    background-color:rgb(18,186,156);
+    height:12vh;
+    width:100vw;
+    position: fixed;
+    top:0;
+}
+.d-flex-r{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.topicon{
+    position: absolute;
+    left:50px;
+}
+.topendicon{
+    position: absolute;
+    right:50px;
+    cursor: pointer;
+}
+.topsicon{
+    position:absolute;
+    left:78%;
+}
+.topsearch{
+    position:absolute;
+    left:60%;
+}
+.topname{
+    position: absolute;
+    left:100px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+.toprev{
+    position: absolute;
+    right:160px;
+}
+.topnoticon{
+    position: absolute;
+    right:110px;
+    cursor: pointer;
+}
+.icondrop{
+    position:absolute;
+    right:3px;
+    top:15px
+}

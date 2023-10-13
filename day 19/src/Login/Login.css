@@ -1,0 +1,59 @@
+.loginform{
+    /* border: 2px solid black; */
+    height:30vh;
+    width:25vw;
+    border-radius: 10px;
+    /* background-color: rgba(197, 184, 167, 0.692); */
+    margin-top:40px;
+}
+.lbox{
+    padding-top: 2%;
+}
+.logininput{
+    padding-top: 20px;
+}
+.lin{
+    padding:15px;
+    border-radius: 5px;
+}
+.lbutton{
+    margin-left: 4%;
+    padding:10px;
+    border-radius: 5px;
+    width:13vw;
+    color:white;
+    background-color: green;
+    cursor:pointer;
+    transition: transform 0.3s ease;
+}
+.lbutton:hover{
+    transform: scale(1.1);
+}
+
+.loginbody{
+    /* background-image: url("https://cdn.pixabay.com/photo/2022/10/11/21/58/texture-7515225_640.jpg"); */
+    border:2px solid black;
+     height: 80vh;
+     width: 80vw;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     text-align: center;
+     margin-left:120px;
+     margin-top:50px;
+     border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+ }
+ .spannav:hover{
+    cursor:pointer;
+ }
+ .loginend{
+    border:2px solid gray;
+    margin-top:35%;
+ }
+ .logimg{
+    /* border:2px solid black; */
+    width:44vw;
+    height:80vh;
+    margin-left: -177px;
+ }
