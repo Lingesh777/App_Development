@@ -1,0 +1,86 @@
+.content{
+   /* width:75vw;
+   height:85vh; */
+   /* border:2px solid gray; */
+   
+   margin-left: 15%;
+   margin-top: 8%;
+}
+
+.vpcontainer{
+    display: grid;
+   grid-template-columns: 250px 250px 250px 250px;
+   margin-left: 30px;
+   row-gap: 10px;
+    
+    height:80vh
+}
+.vptable,.userdatatable{
+    border-collapse: collapse;
+}
+.vptable td,.vptable th{
+    border:1px solid transparent;
+    padding: 8px;
+}
+.vptable tr:hover{
+    /* background-color: rgba(128, 128, 128, 0.479); */
+    background-color: green;
+    color:white;
+}
+.vptable th{
+    /* background-color: rgba(99, 193, 216, 0.76); */
+    background-color: green;
+    color:white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.vptable td{
+    font-weight: bold;
+    /* border-right: none; */
+}
+
+.vptable1{
+    border-collapse: collapse;
+}
+.vptable1 td,.vptable1 th{
+    border:1px solid transparent;
+    padding: 8px;
+}
+.vptable1 tr:hover{
+    /* background-color: rgba(128, 128, 128, 0.479); */
+    background-color: green;
+    color:white;
+}
+.vptable1 th{
+    /* background-color: rgba(99, 193, 216, 0.76); */
+    background-color: green;
+    color:white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.vptable1 td{
+    font-weight: bold;
+    /* border-right: none; */
+}
+.repbox{
+    border:2px solid black;
+    width:16vw;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.repbody{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    column-gap: 200px;
+}
+.userdatatable{
+    margin-top:200px;
+    margin-left: -350px;
+}
+.userdatatable td{
+    font-weight: bold;
+}
+.userdatatable td,.userdatatable th{
+    border:1px solid transparent;
+    padding: 8px;
+}

@@ -1,0 +1,87 @@
+.abtimg{
+   margin-top: 400px;
+}
+.abtinfo{
+    position: absolute;
+    top:250px;
+    left: 800px;
+    font-size: 20px;
+}
+.abtinfo p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 39px;
+    font-weight: bolder;
+}
+
+div.abtinfo p{
+    line-height: 1.6;
+}
+.abttp{
+    position: absolute;
+    top:130px;
+    left: 600px;
+    font-size: 39px;
+
+}
+div.abtinfo ul{
+    line-height: 1.9;
+ }
+ .abtimg1{
+    margin-left: 50%;
+    margin-top:100px
+}
+.abtinfo1{
+    position: absolute;
+    top: 900px;
+    right: 800px
+}
+.abtinfo1 p{
+    font-size: 34px;
+    font-weight: bolder;
+}
+div.abtinfo1 p{
+    line-height: 1.9;
+}
+div.abtinfo1{
+    line-height: 2.0;
+}
+.abtinfo1{
+    font-size: 22px;
+    
+}
+.abtft{
+    /* background: linear-gradient(45deg,#e2dfff,#dfe4ff,#dfeeff,#dfe7ff,#e3e4ff);
+    background-color: #dfe4ff; */
+    height: 190px;
+    width: 100%;
+    position: absolute;
+    top: 1600px;
+}
+.abtft h1{
+   position: absolute;
+   left: 600px;
+   top:10px;
+ 
+}
+.abtft p{
+   position: absolute;
+   top: 70px;
+   left: 100px;
+   right: 500px;
+   font-size: 22px;
+   font-weight: bold;
+ 
+}
+.stbtn1{
+    position: absolute;
+    top: 120px;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    left: 1000px;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    background-color: rgb(34, 34, 34);
+}
