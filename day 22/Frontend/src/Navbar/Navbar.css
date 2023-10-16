@@ -1,0 +1,16 @@
+.navname{
+margin-left:80px;
+margin-top:-30px;
+border:2px solid gray;
+width:5vw;
+/* height: 2vh; */
+}
+.navicon{
+    border:2px solid gray;  
+    width:3vw;
+}
+.navigationbar{
+    position: fixed;
+    top:0;
+    width:100vw;
+}
