@@ -1,0 +1,27 @@
+.topcontact{
+    margin-top: 7%;
+    margin-left: 15%;
+}
+.horizontal-line {
+    border: none;
+    height: 1px;
+    background-color: #000; /* You can change the color as needed */
+    width:70vw;
+}
+.topcontact2{
+    margin-top:3%;
+    margin-left: 15%;
+}
+.botcontact{
+    margin-left: 15%;
+    margin-top: 3%;
+}
+.contactlink{
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px 70px;
+    margin-left: 37%;
+}
+.emc{
+    margin-top: 10px;
+}
+  
