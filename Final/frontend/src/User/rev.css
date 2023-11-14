@@ -1,0 +1,23 @@
+.revbody{
+    border:2px solid black;
+    border-radius: 10px;
+    width:35vw;
+}
+.revcol{
+    padding:10px
+}
+.revin{
+    margin-top:10px;
+    padding:20px;
+    width:20vw;
+    margin-left:70px
+}
+.edituserform{
+    /* border:2px solid black; */
+}
+.editin{
+    width:10vw;
+    height:5vh;
+    font-weight: bold;
+    border-radius: 10px;
+}
